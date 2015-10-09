@@ -1,6 +1,6 @@
 'use + +++++ + +6+++++ ++ + +strict';
 
-/* App Module test*/
+/* App Module */
 
 var phonecatApp = angular.module('phonecatApp', [
   'ngRoute',
