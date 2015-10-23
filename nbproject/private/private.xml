@@ -3,7 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/home1/info2/ayala.raphael/iut2015groupeprojet/app/js/controllers.js</file>
+=======
+            <file>file:/home1/info2/wadoux.quentin/projetgroupe/app/partials/phone-detail.html</file>
+            <file>file:/home1/info2/wadoux.quentin/projetgroupe/app/js/app.js</file>
+            <file>file:/home1/info2/wadoux.quentin/projetgroupe/app/js/controllers.js</file>
+            <file>file:/home1/info2/wadoux.quentin/projetgroupe/app/partials/modifier.html</file>
+>>>>>>> f0982ccf3ae7322cfeb5439fe34e209994294983
         </group>
     </open-files>
 </project-private>
