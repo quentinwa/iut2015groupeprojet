@@ -19,4 +19,25 @@ phonecatControllers.controller('PhoneDetailCtrl', ['$scope', '$routeParams', 'Ph
     $scope.setImage = function(imageUrl) {
       $scope.mainImageUrl = imageUrl;
     };
+    $scope.sendEmail = function() {
+    var req = {
+        method: 'POST',
+         url:'http://api.mailgun.net/v3/sandbox2dde62dbe4fa4d379e0e68dd9d27e5b8.mailgun.org/messages?to=raphaya@laposte.net&from=raphaya@laposte.net&text=blabla',
+         headers: {
+            'Authorization' : 'Basic YXBpOmtleS05OGU5MTFmNmYzYTRlZWE4MGU3Y2U3OWM0MGEzNGZlZQ=='
+         },
+    };   
+    
+    $http(req).success(function(response)  {
+        alert('Message envoyé');
+    }).error(function(response){
+            alert('Message non envoyé');
+        });
+ } 
+
+
+    
+    
   }]);
+
+
